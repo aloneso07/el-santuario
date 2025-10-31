@@ -6,6 +6,7 @@
     <title>Mi Página web de mecatrónica</title>
 
     <style>
+        /* [ESTILOS CSS PREVIOS (mantenidos)] */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -55,12 +56,24 @@
             color: #e74c3c;
             margin-top: 0;
         }
+        .project figure {
+            margin: 20px 0;
+            padding: 0;
+            text-align: center;
+        }
         .project img {
-            max-width: 100%;
-            height: auto;
+            max-width: 100%; 
+            height: auto; 
             display: block;
-            margin: 10px 0;
+            margin: 0 auto; 
             border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 5px;
         }
         .conclusion {
             background-color: #ecf0f1;
@@ -90,26 +103,30 @@
             <h3>⚙️  Impresión 3D</h3>
             
             <p>
-                En este primer trabajo, diseñe e ipmrimí una figura móvil en impresión 3D.
+                En este primer trabajo, diseñé e imprimí una figura móvil en impresión 3D.
             </p>
 
             <div class="project">
                 <h4>Procesos</h4>
                 <p>
-                    **Fase de Diseño:**  Primero en Tinker Card, me puse a diseñar mi modelo, hice un cubo de 5x5, con caras ciruculares y huecas, con una esfera móvil dentro, la esfera la hice más pequeña que las caras del cubo para que se quedará dentro.
+                    *Fase de Diseño:* Primero en Tinker Card, diseñé mi modelo: un cubo de 5x5, con caras circulares y huecas, con una esfera móvil dentro, la esfera más pequeña que el cubo para que se quedará dentro.
                 </p>
                 <p>
-                    **Desarrollo:** Guardé mi archivo en formato obj y svg para poder pasarlo a la maquina 3d del laboratorio de maquinas 3d y lo deje imprimiendo unas 2 horas.
+                    *Desarrollo:* Guardé mi archivo en formato obj y svg para pasarlo a la máquina 3D del laboratorio y lo dejé imprimiendo unas 2 horas.
                 </p>
                 <p>
-                    **Resultados:** Lo deje imprimiendo unas 2 horas y cuando acabó de imprimir lo saqué de la impresora y este había salidó sin errores, lo retiré de la base y rompí los soportes de la esfera para que se pudiera mover libremente dentro del cubo.
+                    *Resultados:* El resultado fue exitoso, el cubo salió sin errores, lo retiré de la base y rompí los soportes para que la esfera se pudiera mover libremente dentro del cubo.
                 </p>
                 
-                <p>
-                    [Aquí puedes reemplazar este texto con una etiqueta de imagen real como: 
-                    <img src="Trabajo1.jpeg" alt="Diagrama de flujo del Proyecto 1">
-                    Recuerda subir la imagen a tu repositorio y poner la ruta correcta.]
-                </p>
+                <figure>
+                    <img src="Trabajo1.jpeg.jpeg" alt="Figura móvil impresa en 3D: cubo con esfera interna.">
+                    <figcaption>Figura 1. Pieza móvil impresa en 3D.</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="Trabajo1.jpeg (2).jpeg" alt="Detalle del cubo blanco impreso en 3D sosteniendo la esfera interna.">
+                    <figcaption>Figura 2. Detalle de la esfera móvil dentro del cubo.</figcaption>
+                </figure>
             </div>
         </section>
 
@@ -117,26 +134,33 @@
             <h3>🤖 Corte láser</h3>
 
             <p>
-                Aquí realicé un modelo para corte láser, el objetivo era hacer el modelo de las caras para luego cortar una placa de madera en láser para tener un cubo con 6 caras que se conecten entre si.
+                Realicé un modelo para corte láser: el objetivo era diseñar las caras de un cubo para luego cortar una placa de madera y ensamblar un cubo con 6 caras que se conecten entre sí.
             </p>
 
             <div class="project">
                 <h4>Procesos</h4>
                 <p>
-                    **Fase de Diseño:**  En Tinker Card saqué el modelo de un cubo, lo modifiqué para que fuera una cara plana de un cuadrado e hice los cortes para que embonara con las otras caras, esta cara la copie 4 veces que serían las caras de los lados del cubo, para la cara de arriba y abajo tuve que diseñar otro tipo de contorno para que encajara con las otras piezas que ya había hecho y guardé mi archivo en  formato SVG ya que sería un corte láser.
+                    *Fase de Diseño:* En Tinker Card saqué el modelo de un cubo, lo modifiqué para hacer una cara plana con los cortes para que embonara con las otras caras, esta cara la copie 4 veces que serían las caras de los lados del cubo, para la cara de arriba y abajo tuve que diseñar otro tipo de contorno para que encajara con las otras piezas que ya había hecho y guardé mi archivo en formato SVG.
                 </p>
                 <p>
-                    **Desarrollo:** Con una placa de madera que pudo conseguir un compañero, la use para poder cortar mis caras del cubo en la cortadora láser, no tardó mucho tiempo en ser cortada.
+                    *Desarrollo:* Usé una placa de madera para cortar las caras en la cortadora láser.
                 </p>
                 <p>
-                    **Resultados:** Al terminar de cortar las piezas habían salido bastante bien y cuando quise armar el cubo si embonaron todas las piezas.
+                    *Resultados:* Al terminar de cortar, las piezas salieron bien y el cubo se pudo armar, embonando todas las piezas correctamente.
                 </p>
                 
-                <p>
-                    [Aquí puedes reemplazar este texto con una etiqueta de imagen real como: 
-                    <img src="ru" alt="Prototipo del Proyecto 2">
-                    Recuerda subir la imagen a tu repositorio y poner la ruta correcta.]
-                </p>
+                <figure>
+                    <img src="ru (2).jpeg" alt="Diseño de las piezas para corte láser en Tinker Card.">
+                    <figcaption>Figura 3. Diseño de las seis caras de un cubo en Tinker Card.</figcaption>
+                </figure>
+                <figure>
+                    <img src="ru.jpeg" alt="Piezas de madera cortadas con láser para ensamblar un cubo.">
+                    <figcaption>Figura 4. Piezas individuales después del corte láser.</figcaption>
+                </figure>
+                <figure>
+                    <img src="ru (3).jpeg" alt="Cubo ensamblado a partir de las piezas cortadas con láser.">
+                    <figcaption>Figura 5. Cubo final ensamblado.</figcaption>
+                </figure>
             </div>
         </section>
 
@@ -144,35 +168,49 @@
             <h3>💡 Circuito PCB </h3>
 
             <p>
-               Se nos asignó la realización de un modelo de placa pcb basado en un plano de un circuito eléctrico que nos dieron, tuvimos que hacer el plano, imprimirlo y soldarlo.
+               Se nos asignó la realización de un modelo de placa pcb basado en un plano de un circuito eléctrico que nos dieron. Tuvimos que hacer el plano, imprimirlo y soldarlo.
             </p>
             
             <div class="project">
                 <h4>Procesos</h4>
                 <p>
-                    **Fase de Diseño: Con el diagrama del circuito teníamos que pasarlo a una aplicacion de modelado de circuitos y posteriormente imprimir el modelo de la placa pcb en la cortadora de cobre para después poder soldar los componentes para armar el circuito.
+                    *Fase de Diseño:* Con el diagrama del circuito, lo pasé a una aplicación de modelado de circuitos (PCB) para posteriormente imprimir el modelo de la placa en la cortadora de cobre.
                 </p>
                 <p>
-                    **Desarrollo: Luego de tener el modelo en la pagina, lo imprimí varias veces en la coratdora de cobre porque tuve problemas en el diseño, después de varios intentos imprimí un modelo que parecía que funcionaía, se veía bien así que pedí todos los componentes que pedía el diagrama del circuito y los soldé a la placa pcb
-                    era mi primera vez soldando y creo que no me quedo nada mal y después de soldarlo lo probé pero no funcionó.
+                    *Desarrollo:* Imprimí el modelo en la cortadora de cobre después de varios intentos. Luego soldé los componentes que pedía el diagrama a la placa PCB. Fue mi primera vez soldando y creo que no me quedó mal, aunque el circuito no funcionó al probarlo.
                 </p>
                 <p>
-                    **Resultados|:**  Ya que tenía la placa pcb y los componentes soldados a ella intente que funcionara pero no funcionó, supongo que fue por la inexperiencia en soldar.
+                    *Resultados:* Ya que tenía la placa PCB y los componentes soldados, el circuito no funcionó. Supongo que fue por la inexperiencia en soldar o un error en la fase de diseño.
                 </p>
                 
-                <p>
-                    [Aquí puedes reemplazar este texto con una etiqueta de imagen real como: 
-                    <img src="ruta/a/tu/imagen3.gif" alt="Esquema electrónico del Proyecto 3">
-                    Recuerda subir la imagen a tu repositorio y poner la ruta correcta.]
-                </p>
+                <figure>
+                    <img src="rutaatuimagen3.gif (4).jpeg" alt="Simulación del circuito electrónico en el protoboard utilizando TinkerCAD.">
+                    <figcaption>Figura 6. Esquema electrónico del circuito en TinkerCAD.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="rutaatuimagen3.gif (2).jpeg" alt="Laptop mostrando el diseño de la placa PCB en un software de trazado.">
+                    <figcaption>Figura 7. Diseño del trazado del circuito PCB en la computadora.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="rutaatuimagen3.gif.jpeg" alt="Placa de cobre del circuito impreso (PCB) sin componentes soldados.">
+                    <figcaption>Figura 8. Trazado del circuito después del corte en la placa de cobre.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="rutaatuimagen3.gif (3).jpeg" alt="Placa PCB con el circuito final montado y componentes soldados.">
+                    <figcaption>Figura 9. Circuito PCB final con componentes soldados.</figcaption>
+                </figure>
+
             </div>
         </section>
 
         <section id="conclusion" class="conclusion">
             <h3>✅ Conclusión</h3>
             <p>
-               Estos trabajos los fuí realizando desde el inicio del semestre hasta ahora, la verdad no tenía experiencia en nada de lo que hice pero en las clases fuí aprendiendo, nos dieron una explicación general sobre cada cosa y sobre eso fuí probando y experimentando por mi cuenta hasta que quedaron los trabajos realizados.
-                se me hizo muy entretenido y divertido el ir probando nuevas cosas e ir experimentando con prueba y error, en lo personal a mi me gusta mucho armar, crear, ensamblar y estos trabajos me dieron una probada de cada cosa, aunque fueron pocas clases explicando cada tema y no fueron explicaciones más profundas, es ententible ya que no son materias específicas de estos temas, sino es algo más general así que creo que estuvo muy bien y me gusto aprender y experimentar con estos temas que vendrían siendo la punta del icberg que más adelante veré con mayor profundidad.
+               Estos trabajos los fui realizando desde el inicio del semestre hasta ahora. La verdad no tenía experiencia en nada de lo que hice, pero en las clases fui aprendiendo. Nos dieron una explicación general sobre cada cosa y sobre eso fui probando y experimentando por mi cuenta hasta que quedaron los trabajos realizados.
+                Se me hizo muy entretenido y divertido el ir probando nuevas cosas e ir experimentando con prueba y error. En lo personal, a mí me gusta mucho armar, crear, ensamblar, y estos trabajos me dieron una probada de cada cosa. Aunque fueron pocas clases explicando cada tema y no fueron explicaciones más profundas, es entendible ya que no son materias específicas de estos temas, sino es algo más general. Así que creo que estuvo muy bien y me gustó aprender y experimentar con estos temas que vendrían siendo la punta del iceberg que más adelante veré con mayor profundidad.
             </p>
         </section>
 
